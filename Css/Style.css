@@ -69,3 +69,11 @@ li{
     display: inline-block;
     margin: 30px;
 }
+.nav-container{
+    display: flex;
+    gap: 100px;
+    padding: 20px;
+    position: relative;
+    left: 20px
+    
+}
