@@ -2,23 +2,38 @@
     color: #101010;
     font-family: proxima-nova, sans-serif;
     font-weight: 600;
-    font-style: normal;
+    font-style: normal;  
     
 }
 .hundred{
-    font-size: 100px;
+    font-size: 70px;
+    position:relative;
+    top: 150px;
+    left: 130px
+    
 }
 .twohundred{
-    font-size: 200px;
+    font-size: 140px;
+    position: relative;
+    left: 120px
+    
+}
+.hundredtwo{
+    font-size: 70px;
+    position:relative;
+    left: 130px;
+    bottom:150px;
 }
 li{
     list-style: none;
 }
 .three{
-    font-size: 40px;
+    font-size: 28px;
     font-family: proxima-nova, sans-serif;
     font-weight: 400;
     font-style: normal;
+    position: relative;
+    left: 120px;
 }
 .bold{
     font-family: proxima-nova, sans-serif;
@@ -26,7 +41,7 @@ li{
     font-style: normal;
 }
 .twenty{
-    font-size: 20px;
+    font-size: 14px;
 }
 .regular{
     font-family: proxima-nova, sans-serif;
@@ -34,7 +49,7 @@ li{
     font-style: normal;
 }
 .footer-box{
-    height: 321px; 
+    height: 280px; 
     width: 1920px; 
     background-color:#F0F0F0;
 }
@@ -44,5 +59,13 @@ li{
     background-color: #101010
 }
 .menu-bar-item{
-    color: #f0f0f0
+    color: #f0f0f0;
+    position: static;
+    top: center;
+
+
+}
+.footer-menu{
+    display: inline-block;
+    margin: 30px;
 }
