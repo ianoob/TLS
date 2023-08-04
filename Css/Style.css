@@ -52,6 +52,7 @@ li{
     height: 280px; 
     width: 1920px; 
     background-color:#F0F0F0;
+    
 }
 .menu-bar{
     height: 67px;
@@ -62,8 +63,7 @@ li{
     color: #f0f0f0;
     position: static;
     top: center;
-
-
+    font-size: 20px;
 }
 .footer-menu{
     display: inline-block;
@@ -76,5 +76,11 @@ li{
     padding-left: 130px;
     position: relative;
     left: 20px
-    
+}
+.footer-container{
+    display: flex;
+}
+.icon-container{
+    display: flex;
+    gap: 20px;
 }
