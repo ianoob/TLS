@@ -79,6 +79,8 @@ li{
 }
 .footer-container{
     display: flex;
+    padding-left: 130px;
+    
 }
 .icon-container{
     display: flex;
