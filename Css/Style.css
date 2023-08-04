@@ -71,18 +71,24 @@ li{
 }
 .nav-container{
     display: flex;
-    gap: 100px;
-    padding: 20px;
-    padding-left: 130px;
+   justify-content: center;
+   justify-content: space-around;
+   padding-top: 20px;
     position: relative;
     left: 20px
 }
 .footer-container{
     display: flex;
+    justify-content: center;
+    Justify-content: space-around;
     padding-left: 130px;
     
 }
 .icon-container{
     display: flex;
     gap: 20px;
+}
+.logo-container{
+    display: flex;
+    
 }
