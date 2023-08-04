@@ -55,13 +55,11 @@ li{
 }
 .footer-box{
     height: 17.5rem; 
-    width: 120rem; 
     background-color:#F0F0F0;
     
 }
 .menu-bar{
     height: 4.1875rem;
-    width: 120rem;
     background-color: #101010
 }
 .menu-bar-item{
@@ -118,6 +116,7 @@ li{
     bottom: 16rem;
     left: 3rem;
     padding-bottom: 0rem;
+    margin-bottom: 0rem;
 
 }
 .meet{
@@ -125,15 +124,25 @@ li{
     color: white;
     font-size: 4.375rem;
     position: relative;
-    bottom: 34.375rem;
+    bottom: 20rem;
     left: 18rem;
+    margin-bottom:0rem;
 }
 .UX{
     font-family: proxima-nova, sans-serif;
     font-size:18.75rem;
     position: relative;
-    bottom: 53rem;
+    bottom: 38rem;
     color: grey;
-    left: 23rem
+    left: 23rem;
+    margin-bottom:0rem
 
+}
+
+.copyright{
+    position:relative;
+    bottom: 3rem;
+    text-align: center;
+    font-size:0.8rem;
+    margin-bottom:0rem;
 }
