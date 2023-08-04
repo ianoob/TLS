@@ -42,6 +42,7 @@ li{
 }
 .twenty{
     font-size: 14px;
+    color:#101010;
 }
 .regular{
     font-family: proxima-nova, sans-serif;
@@ -89,6 +90,10 @@ li{
     gap: 20px;
 }
 .logo-container{
-    display: flex;
-    
+    display: flex;  
+}
+.footer-box a:link{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #101010;
 }
