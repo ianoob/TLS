@@ -2,7 +2,7 @@
 
 .brand-logo{
     color: #101010;
-    font-family: proxima-nova, sans-serif;
+    font-family: "proxima-nova", sans-serif;
     font-weight: 600;
     font-style: normal;  
     width: 63.25rem;
@@ -32,7 +32,7 @@ li{
 }
 .three{
     font-size: 1.75rem;
-    font-family: proxima-nova, sans-serif;
+    font-family: "proxima-nova", sans-serif;
     font-weight: 400;
     font-style: normal;
     position:relative;
@@ -40,7 +40,7 @@ li{
     Bottom: 7.5rem;
 }
 .bold{
-    font-family: proxima-nova, sans-serif;
+    font-family: "proxima-nova", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
@@ -49,7 +49,7 @@ li{
     color:#101010;
 }
 .regular{
-    font-family: proxima-nova, sans-serif;
+    font-family: "proxima-nova", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -76,14 +76,14 @@ li{
 .nav-container{
     display: flex;
    justify-content: center;
-   justify-content: space-around;
+   justify-content: space-evenly;
    padding-top: 1.25rem;
     position: relative;
     left: 1.25rem;
 }
 .footer-container{
     display: flex;
-    justify-content: center;
+    align-self: center;
     Justify-content: space-around;
     padding-left: 130px;
     
@@ -110,17 +110,19 @@ li{
 }
 .UI{
     color: gray;
-    font-family: proxima-nova, sans-serif;
     font-size: 18.74rem;
     position: relative;
     bottom: 16rem;
     left: 3rem;
     padding-bottom: 0rem;
     margin-bottom: 0rem;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 
 }
 .meet{
-    font-family: proxima-nova, sans-serif;
+    font-family: "proxima-nova", sans-serif;
     color: white;
     font-size: 4.375rem;
     position: relative;
@@ -129,14 +131,16 @@ li{
     margin-bottom:0rem;
 }
 .UX{
-    font-family: proxima-nova, sans-serif;
-    font-size:18.75rem;
+    color: gray;
+    font-size: 18.74rem;
     position: relative;
-    bottom: 38rem;
-    color: grey;
-    left: 23rem;
-    margin-bottom:0rem
-
+    bottom: 35rem;
+    left: 24rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .copyright{
@@ -145,4 +149,87 @@ li{
     text-align: center;
     font-size:0.8rem;
     margin-bottom:0rem;
+}
+
+.vision-container{
+    display: flex;
+    gap: 20rem;
+    justify-content:space-evenly;
+    height:12rem;
+}
+
+.vision{
+    font-size: 3rem;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position:relative;
+    left: 10rem;
+    bottom:7rem;
+    margin-bottom: 0rem:
+    
+}
+.mission-value{
+    font-size: 1.75rem;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position:relative;
+    left: 7.5rem;
+    inline-size: 46rem;
+    overflow-wrap: break-word;
+    color:white;
+    bottom:1rem;
+    margin-bottom:0rem;
+}
+.mission-container{
+    display: flex;
+    gap: 20rem;
+    justify-content:space-evenly;
+    background-color: #101010;
+    height:15rem;
+    
+}
+.three1{
+    color:white;
+    font-size: 1.75rem;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position:relative;
+    left: 7.5rem;
+}
+
+.vision1{
+    font-size: 2.5rem;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position:relative;
+    left: 10rem;
+    margin-bottom: 0rem;
+    color: white;
+}
+.our{
+    font-size: 2.5rem;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position:relative;
+    left: 7.5rem;
+    Bottom: 7.5rem;
+}
+.team{
+    height:5rem;
+    background-color: black;
+}
+.meettheteam{
+    color:white;
+    font-size: 2.5rem;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    position:relative;
+    top:0.5rem;
 }
