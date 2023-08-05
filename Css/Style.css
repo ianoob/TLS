@@ -76,10 +76,8 @@ li{
 .nav-container{
     display: flex;
    justify-content: center;
-   justify-content: space-evenly;
-   padding-top: 1.25rem;
-    position: relative;
-    left: 1.25rem;
+   gap:5rem;
+   
 }
 .footer-container{
     display: flex;
@@ -232,4 +230,8 @@ li{
     text-align: center;
     position:relative;
     top:0.5rem;
+}
+.search{
+    position: relative;
+    left:15rem;
 }
